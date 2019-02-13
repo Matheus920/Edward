@@ -1,6 +1,6 @@
 body{
     background-color: #000000c2;
-    color: #d2d2d200 !important;
+    color: #d2d2d2 !important;
 }
 
 header, main {
@@ -14,9 +14,10 @@ header {
 }
 
 footer {
-    color: #d2d2d2;
+    background-color: #000000c2;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
 }
@@ -35,6 +36,17 @@ nav a {
 
 footer a {
     cursor: pointer;
+}
+
+#info-panel{
+    float: right;
+    text-align: center;
+
+}
+
+#info-panel h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media screen and (min-width: 600px){
@@ -74,4 +86,9 @@ nav a:visited {
 #logo img{
     width: 77px;
     height: 77px;
+}
+
+#edward-warned{
+    width: 70%;
+    height: 260px;
 }
