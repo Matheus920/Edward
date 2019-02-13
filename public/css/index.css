@@ -33,6 +33,9 @@ nav a {
     transition: 0.2s;
 }
 
+footer a {
+    cursor: pointer;
+}
 
 @media screen and (min-width: 600px){
     nav a {
