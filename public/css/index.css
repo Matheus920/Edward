@@ -49,6 +49,12 @@ footer a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 80px;
+}
+
 @media screen and (min-width: 600px){
     nav a {
         font-size: 24px;
@@ -63,6 +69,19 @@ footer a {
 @media screen and (min-width: 700px){
     nav a {
         font-size: 30px;
+    }
+
+    section{
+        display: block;
+    }
+
+    #info-panel{
+        width: 40%;
+        float: right;
+    }
+
+    #edward-warned{
+        width: 40% !important;
     }
     
 }
@@ -91,4 +110,13 @@ nav a:visited {
 #edward-warned{
     width: 70%;
     height: 260px;
+    margin: 0 auto;
+}
+
+#explanation-text{
+    margin-top: 25px;
+}
+
+#donate-button{
+    margin-top: 10px;
 }

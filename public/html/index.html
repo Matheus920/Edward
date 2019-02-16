@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/index.css" />
     <script src="../js/translate.js"></script>
   </head>
-  <body>
+  <body onload="initialize()">
     <header>
       <div id="logo">
         <img
@@ -32,18 +32,19 @@
         />
         <div id="info-panel">
           <h2>Raised</h2>
-          <p>$30,00</p>
+          <p id="raised-money"></p>
           <h2>Goal</h2>
           <p>$500,00</p>
+          <label for="donation">How much do you wanna donate?</label>
+          <input type="number" min="0" max="500" name="donation" id="donation" onkeyup="verify()" onkeydown="verify()"><br>
+          <button id="donate-button" onclick="donate()" disabled>DONATE</button>
         </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <div id="explanation-text">
+          Edward is a dog that suffers from a rare disease which may kills him soon.
+          The remedies and other costs of the treatment are very expensive and his owner
+          cannot afford it. Because of that, this site was created in order to raise money
+          for keep Edward alive and happy. Please, look at the picture and make a donation
+          for this cripple dog.
         </div>
       </section>
     </main>
@@ -58,4 +59,6 @@
       </p>
     </footer>
   </body>
+  <script src="../js/donate.js"></script>
+
 </html>
