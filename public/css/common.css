@@ -4,12 +4,17 @@ body{
 }
 
 header, main {
-    width: 80%;
+    width: 100%;
     max-width: 700px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
+@media screen and (min-width: 500px){
+    header, main{
+        width: 80%;
+    }
+}
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

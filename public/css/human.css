@@ -1,0 +1,30 @@
+@media screen and (min-width: 760px){
+    section img{
+        width: 60% !important;
+        float: left; padding-right: 10px;
+    }
+    figure{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+figure{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+section img{
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+section p {
+    text-align: justify;
+}
