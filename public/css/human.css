@@ -1,20 +1,28 @@
 @media screen and (min-width: 760px){
-    section img{
+    #josceli-img{
         width: 60% !important;
         float: left; padding-right: 10px;
     }
     figure{
         text-align: center;
+        width: 800px;
         font-size: 18px;
     }
     
 }
+
+
+#edward2-img {
+    width: 300px;
+    height: 300px;
+}
+
 figure{
     margin-left: 3px;
     margin-right: 3px;
 }
 
-section img{
+#josceli-img{
     width: 100%;
 }
 
@@ -22,8 +30,13 @@ main section {
     display: flex;
     flex-flow: column;
     align-items: center;
+
 }
 
+
+#edward-paragraph {
+    text-align: center;
+}
 
 section p {
     text-align: justify;
